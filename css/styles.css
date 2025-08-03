@@ -163,11 +163,13 @@ header .logo {
   max-width: 1440px;
   margin: 0 auto;
   background-image: linear-gradient(
-      to top,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-head {
@@ -200,6 +202,7 @@ header .logo {
   min-width: 169px;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-btn:hover,
@@ -234,12 +237,15 @@ header .logo {
   margin-bottom: 8px;
 }
 .strengths-icon {
-  border: 1px solid;
-  border-radius: 4px;
+  border: 1px solid #8e8f99;
   width: 264px;
   height: 112px;
   padding: 24px 100px;
   background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 .strengths-icon-style {
