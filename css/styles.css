@@ -284,14 +284,12 @@ header .logo {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.socials {
-}
 
 .socials-list {
   display: flex;
   gap: 24px;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
